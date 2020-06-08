@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Resultado da pesquisa</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Ubuntu:wght@700display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../../public/styles/main.css" />
+    <link rel="stylesheet" href="../../public/styles/search-results.css" />
+    <link rel="stylesheet" href="../../public/styles/responsive.css" />
+  </head>
+
+  <body>
+    <div id="page-search-results">
+      {% include "partials/page-header.html" %}
+
+      <main>
+        <h4><strong>2 pontos</strong> encontrados</h4>
+        <div class="cards">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1557224651-e96a58962468?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+              alt="Recyclas"
+            />
+            <h2>Recyclas</h2>
+            <h3>Resíduos eletrônicos, Lâmpadas</h3>
+            <p>
+              Rua do Sul, Santa cantarina,<br />
+              Guilerma Gemballa, Jardins <br />
+              N°600
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+              alt="Colectoria"
+            />
+            <h2>Colectoria</h2>
+            <h3>Residuos eletronicos, lampadas</h3>
+            <p>
+              Rua do Sul, Santa cantarina,<br />
+              Guilerma GEmballa, jardinds aenre <br />
+              N°600
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- <script src="/scripts/create-points.js"></script> -->
+  </body>
+</html>
